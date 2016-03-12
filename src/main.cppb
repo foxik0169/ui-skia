@@ -1,0 +1,16 @@
+// A simple program that computes the square root of a number
+#include "SkPaint.h"
+#include "SkString.h"
+#include "SkWindow.h"
+
+int main(int argc, char** argv) {
+	SkPaint paint;
+	paint.setColor(SK_ColorRED);
+
+	SkString str;
+	paint.toString(&str);
+
+	fprintf(stdout, "%s\n", str.c_str());
+
+	return 0;
+}

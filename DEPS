@@ -4,5 +4,5 @@ vars = {
 
 deps = {
 	"src/third_party/skia/":
-	"http://skia.googlecode.com/skia.git@" + Var("skia_revision"),
+	"http://skia.googlecode.com/skia.git",
 }
